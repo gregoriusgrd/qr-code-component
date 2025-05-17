@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Outfit:wght@100..900&display=swap");
+
+:root {
+  --slate-300: #d5e1ef;
+  --slate-500: #68778d;
+  --slate-900: #1f314f;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  margin: 0;
+
+  background-color: var(--slate-300);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 320px;
+  padding: 16px;
+  border-radius: 20px;
+
+  background-color: #ffffff;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card-content {
+  text-align: center;
+  margin: 0px 16px;
+}
+
+.card-title {
+  font-family: "Outfit", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: normal;
+  color: var(--slate-900);
+}
+
+.card-description {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  line-height: 140%;
+  letter-spacing: 0.2px;
+  color: var(--slate-500);
+
+  margin-top: 16px;
+}
